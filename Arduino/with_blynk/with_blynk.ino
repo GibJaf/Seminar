@@ -34,7 +34,7 @@
 
 
 #include <ESP8266WiFi.h>
-#include <BlynkSimple-Esp8266_SSL.h>
+#include <BlynkSimpleEsp8266_SSL.h>
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
